@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica 17</title>
+</head>
+<body>
+    <form action="http://jorgesanchez.net/servicios/practica17.php" method="get">
+        <table border="1">
+            <tr>
+                <td colspan="3"><h1>Registro de asistentes de las Jornadas de seguridad</h1></td>
+            </tr>
+            <tr>
+                <td rowspan="7"><img src="cartel.jpg" alt="Cartel Jornadas Seguridad" width="313" height="442"></td>
+                <td><label for="DNI">DNI *</label></td>
+                <td><input type="text" name="dni" id="DNI" pattern="[XYZ]?[0-9]{8}[A-Z]" required></td>
+            </tr>
+            <tr>
+                <td><label for="Nombre">Nombre *</label></td>
+                <td><input type="text" name="nombre" id="Nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="Apellidos">Apellidos *</label></td>
+                <td><input type="text" name="apellidos" id="Apellidos" required></td>
+            </tr>
+            <tr>
+                <td><label for="Fecha de Nacimiento">Fecha de Nacimiento</label></td>
+                <td><input type="text" name="fecha" id="Fecha de Nacimiento" placeholder="dd/mm/aaaa"></td>
+            </tr>
+            <tr>
+                <td><label for="Comunidad Autónoma">Comunidad Autónoma de Procedencia</label></td>
+                <td>
+                    <select name="Comunidad Autónoma" id="Comunidad Autónoma">
+                        <option value="an">Andalucía</option>
+                        <option value="ar">Aragón</option>
+                        <option value="as">Aturias</option>
+                        <option value="can">Cantabria</option>
+                        <option value="cm">Castilla la Mancha</option>
+                        <option value="cl">Castilla y León</option>
+                        <option value="cat">Cataluña</option>
+                        <option value="ce">Ceuta</option>
+                        <option value="ex">Extremadura</option>
+                        <option value="ga">Galicia</option>
+                        <option value="ib">Islas Baleares</option>
+                        <option value="ic">Islas Canarias</option>
+                        <option value="ri">La Rioja</option>
+                        <option value="ma">Madrid</option>
+                        <option value="me">Melilla</option>
+                        <option value="mu">Murcia</option>
+                        <option value="na">Navarra</option>
+                        <option value="pv">País Vasco</option>
+                        <option value="va">Valencia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td><label for="Enviar">Enviar datos</label></td>
+                <td><button id="Enviar">Enviar</button></td>
+            </tr>
+            <tr>
+                <td colspan="3"><em>Centro Don Bosco, paseo Don Bosco 1:34190, Villmauriel de Cerrato Tlfno:979 77 72 70</em></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
