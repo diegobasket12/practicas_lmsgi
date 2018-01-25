@@ -12,23 +12,23 @@
             </tr>
             <tr>
                 <td rowspan="7"><img src="cartel.jpg" alt="Cartel Jornadas Seguridad" width="313" height="442"></td>
-                <td><label for="DNI">DNI *</label></td>
+                <th><label for="DNI">DNI *</label></th>
                 <td><input type="text" name="dni" id="DNI" pattern="[XYZ]?[0-9]{8}[A-Z]" required></td>
             </tr>
             <tr>
-                <td><label for="Nombre">Nombre *</label></td>
+                <th><label for="Nombre">Nombre *</label></th>
                 <td><input type="text" name="nombre" id="Nombre" required></td>
             </tr>
             <tr>
-                <td><label for="Apellidos">Apellidos *</label></td>
+                <th><label for="Apellidos">Apellidos *</label></th>
                 <td><input type="text" name="apellidos" id="Apellidos" required></td>
             </tr>
             <tr>
-                <td><label for="Fecha de Nacimiento">Fecha de Nacimiento</label></td>
+                <th><label for="Fecha de Nacimiento">Fecha de Nacimiento</label></th>
                 <td><input type="text" name="fecha" id="Fecha de Nacimiento" placeholder="dd/mm/aaaa"></td>
             </tr>
             <tr>
-                <td><label for="Comunidad Autónoma">Comunidad Autónoma de Procedencia</label></td>
+                <th><label for="Comunidad Autónoma">Comunidad Autónoma de Procedencia</label></th>
                 <td>
                     <select name="Comunidad Autónoma" id="Comunidad Autónoma">
                         <option value="an">Andalucía</option>
@@ -54,10 +54,29 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2"></td>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Institución de origen</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <fieldset>
+                                        <legend>Tipo de Institución</legend>
+                                    </fieldset>
+                                </td>
+                                <td>
+                                    <label for="Institucon">Nombre de la Institución</label><br>
+                                    <input type="text" name="nombreinst" id="Institucon"><br>
+                                    <label for="dirinst">Dirección de la Institución</label><br>
+                                    <input type="text" name="dirinst" id="dirinst">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
             </tr>
             <tr>
-                <td><label for="Enviar">Enviar datos</label></td>
+                <th><label for="Enviar">Enviar datos</label></th>
                 <td><button id="Enviar">Enviar</button></td>
             </tr>
             <tr>
