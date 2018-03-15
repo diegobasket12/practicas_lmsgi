@@ -1,0 +1,18 @@
+.rojo{
+    color: red;
+}
+.grande{
+    font-size: 2em;
+}
+h1 strong{
+    color: blue;
+}
+p[lang^="en"]{
+    font-style: italic;
+}
+input[type="password"]{
+    background-color: yellow;
+}
+input[type="radio"]+label{
+    color: brown;
+}

@@ -1,0 +1,78 @@
+body{
+    margin:0;
+}
+a{
+    color: #447577;
+}
+p strong{
+    color: blue;
+}
+nav strong{
+    color: blue;
+}
+blockquote{
+    font-style: italic;
+    background-color: rgb(217,212,187);
+    padding: 20px 100px 50px 100px;
+    margin: 0;
+    text-align: justify;
+
+}
+body{
+    background-image: url("img/2859.jpg");
+}
+nav{
+    background-color: white;
+    margin: 0;
+    padding: 10px 50px 25px 50px;
+
+}
+h1{
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+}
+h2{
+    background-color: rgba(10%,10%,10%,.9);
+    color: white;
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+p{
+    max-width: 700px;
+    text-align: justify;
+    background-color: gray;
+    margin: auto;
+}
+pre{
+    background-color: slategray;
+    margin: auto;
+    max-width: 700px;
+    color: white;
+}
+pre strong{
+    color: yellow;
+}
+address p{
+    background-color: #713080;
+    margin: 0;
+    max-width: 100%;
+    color: white;
+}
+img{
+    width: 680px;
+    height: auto;
+    padding: 10px;
+}
+kbd{
+    background-image: url("img/key.png");
+}
+samp{
+    background-color: #404040;
+}
+p code{
+    background-color: slategray;
+    color: white;
+}

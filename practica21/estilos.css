@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+
+body{
+    background-color: #ACCDFB;
+    background-image: url("imagenes/fondo.png");
+    background-position: left;
+    background-repeat: repeat-y;
+    font-family: Garamond,serif;
+    padding-left: 150px;
+    font-weight: bold;
+}
+
+
+
+
+h1{
+    background-color: #255089;
+    background-image: url("imagenes/girasolesMiniatura.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'aladin',fantasy;
+    text-align: center;
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    font-weight: normal;
+    margin-left: -150px;
+    font-size: 2.5em;
+}
+
+h2{
+    color: white;
+    font-family: 'aladin',fantasy;
+    font-weight: normal;
+    font-size: 40px;
+    text-shadow: black 5px 5px 5px;
+    border-bottom: white 4px solid;
+}
+
+h3{
+    color: white;
+    font-family: 'aladin',fantasy;
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: black 5px 5px 5px;
+}
+
+figure{
+    border:white 1px solid;
+    margin-left: -2px;
+    padding: 5px;
+}
+figcaption{
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+ul{
+    background-color: #142141;
+    border:white 2px solid;
+    list-style-image: url("imagenes/pincel.png");
+}
+
+li{
+    color: white;
+    border:black 2px solid;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 20px;
+    padding: 5px;
+}
+a{
+    color: white;
+}
+li:hover{
+    background-color: #547089;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a:hover+strong{
+    display: none;
+}

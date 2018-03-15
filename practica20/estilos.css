@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans');
+
+body,html{
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color:rgb(63,110,128);
+}
+h2{
+    text-align: center;
+    color:hsl(194,55%,66%);
+}
+h3{
+    background-color: #333232;
+    color: white;
+}
+section:first-of-type{
+    background-color: #b9b6b6;
+}
+article:nth-child(even){
+    background-color: antiquewhite;
+}
+section[id="lista"] strong{
+    color:#aa4326;
+}
+section[id="lista"] strong.artista{
+    color: #34802f;
+}
+section[id="lista"] strong.cancion{
+    color: #713080;
+}
+em{
+    color:#4c94a9;
+    font-style: normal;
+}
+address{
+    text-align: right;
+    color: gray;
+}
+q{
+    color: #4c94a9;
+    font-style: italic;
+}
