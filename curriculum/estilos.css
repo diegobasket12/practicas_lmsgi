@@ -62,10 +62,18 @@ pre span{
 }
 table, tr, td{
     margin-left: 10%;
-    border: solid white 3px;
+    border: solid white 2px;
 }
 td{
     padding: 10px;
 }
-
+nav span{
+    font-size: 40px;
+}
+a:hover{
+    color: #a63cff;
+}
+td:hover + td{
+    background-color: #0d0497;
+}
 
