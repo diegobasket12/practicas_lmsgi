@@ -60,4 +60,12 @@ img{
 pre span{
     font-size: 2em;
 }
+table, tr, td{
+    margin-left: 10%;
+    border: solid white 3px;
+}
+td{
+    padding: 10px;
+}
+
 
