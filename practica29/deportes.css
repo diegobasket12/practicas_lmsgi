@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    background-image: url("img/fondo-rio.png");
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+
+}
+body img{
+    padding-left: 42%;
+}
+table{
+    max-width: 700px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+thead td{
+    text-align: left;
+}
+
+td:nth-of-type(1){
+    width: 10%;
+    color: lightgray;
+}
+
+td:nth-of-type(2){
+    width: 50%;
+}
+td:nth-of-type(3){
+    width: 10%;
+
+}
+td:nth-of-type(4){
+    width: 10%;
+
+}
+td:nth-of-type(5){
+    width: 10%;
+
+}
+td:nth-of-type(6){
+    width: 10%;
+    font-weight: bold;
+}
+thead td:first-of-type{
+    color: gray;
+    font-size: 20px;
+}
+td:nth-of-type(3,4,5,6){
+    text-align: right;
+}
+thead td:nth-of-type(3){
+    background-image: url("img/oro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+thead td:nth-of-type(4){
+    background-image: url("img/plata.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+thead td:nth-of-type(5){
+    background-image: url("img/bronce.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+thead td:nth-of-type(6){
+    background-image: url("img/total.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+thead td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid gray 1px;
+    border-top: solid gray 1px;
+}

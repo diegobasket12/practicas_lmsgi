@@ -20,17 +20,15 @@ button{
 }
 input[type="text"]{
     background-color: #cccccc;
-    text-align: left;
+
 }
 #usuario{
     background-image: url("img/user2.png");
     background-repeat: no-repeat;
-    background-position: left;
 }
 #contraseña{
     background-image: url("img/candado.png");
     background-repeat: no-repeat;
-    background-position: left;
 }
 #persona{
     margin-top: -30px;

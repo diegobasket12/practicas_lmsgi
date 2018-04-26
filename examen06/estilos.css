@@ -1,0 +1,144 @@
+body{
+    font-family: Verdana,Arial;
+}
+#top {
+    background-color: hsl(202, 70%, 13%);
+}
+
+
+#cabecera{
+    width: 720px;
+    text-align: center;
+    margin: auto;
+}
+
+img[alt="h"]:hover{
+    transition: 1s;
+    transform: rotate(45deg);
+}
+img[alt="u"]:hover{
+    transition: 1s;
+    transform: rotate(-45deg);
+}
+img[alt="g"]:hover{
+    transition: 1s;
+    transform: rotate(45deg);
+}
+img[alt="o"]:hover{
+    transition: 1s;
+    transform: rotate(-45deg);
+}
+#cabecera p{
+    margin-bottom: 10px;
+}
+#cabecera h1{
+    color: white;
+}
+#cabecera p{
+    color: gray;
+}
+span{
+    background-color: #0594cb;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+span:hover{
+    background-color: #7a57cb;
+}
+caption{
+    color: white;
+    font-family: "Arial Black";
+    font-size: 2em;
+}
+td{
+    color: white;
+    font-size: small;
+}
+td strong{
+    color: gray;
+}
+td:hover{
+    box-shadow: 3px 3px 10px 10px white;
+}
+h2{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 2em;
+}
+#informacion{
+    text-align: center;
+    background-color: #50c8ff;
+}
+input[id="correo"]{
+    border-radius: 5px;
+    padding: 8px;
+    background-image: url("img/mail.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #50c8ff;
+    border: white solid 2px;
+}
+#informacion h2{
+    color: white;
+}
+#azul{
+    padding: 50px;
+    background-color: hsl(202, 70%, 13%);
+}
+#negro{
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#rapidez{
+    width: 300px;
+}
+#rapidez strong{
+    color:#50c8ff ;
+}
+#reglas{
+    width: 300px;
+    text-align: right;
+    margin:auto;
+}
+#reglas strong{
+    color: #50c8ff;
+}
+#codigo{
+    width: 300px;
+}
+#codigo strong{
+    color: #50c8ff;
+}
+#entorno{
+    width: 300px;
+    text-align: right;
+    margin:auto;
+}
+#entorno strong{
+    color: #50c8ff;
+}
+#temas{
+    width: 300px;
+}
+#temas strong{
+    color: #50c8ff;
+}
+#html{
+    width: 300px;
+    text-align: right;
+    margin:auto;
+}
+#html strong{
+    color: #50c8ff;
+}
