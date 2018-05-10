@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
+
+body{
+    margin: 0;
+}
+
+#paseos, #portada, #cielos, #campos{
+    font-family: 'Delius Swash Caps', cursive;
+}
+#portada{
+    opacity:0;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-image: url("img/portada.jpg");
+}
+
+#paseos{
+    opacity:1;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #e4e4e4;
+    text-align: center;
+}
+#portada h1, #paseos h1{
+    margin-top: 22%;
+    font-size: 3em;
+}
+#portada:hover{
+    opacity: 1;
+    transition: opacity 4s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#cielos{
+    top:100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+#imgcielos{
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: white;
+    opacity:0;
+    z-index: 1;
+}
+#titcielos{
+    width: 100%;
+    height: 60px;
+    background-color: #9897a3;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    vertical-align: 30px;
+    opacity:1;
+    z-index: auto;
+}
+#imgcielos1{
+    top:0px;
+    left:0px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-image: url("img/cielo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#imgcielos2{
+    top:0px;
+    left:50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-image: url("img/cielo2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#imgcielos3{
+    top:50%;
+    left:0px;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-image: url("img/cielo3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#imgcielos4{
+    top:50%;
+    left:50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background-image: url("img/cielo4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#imgcielos:hover{
+    opacity: 1;
+    transition: opacity 4s;
+}
+
+#campos{
+    top:200%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
