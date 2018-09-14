@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+body{
+    margin:0;
+    font-family: 'Bitter', Serif;
+}
+
+#fondo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/learning.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+#pantalla1{
+    z-index: 100;
+    position: absolute;
+    background-color: #465057;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-weight: 700px;
+    background-image: url("img/scroll.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#pantalla2{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    font-weight: 400px;
+    z-index: 100;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+}
+#pantalla2 p{
+    padding: 10px;
+}
+#coursera{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 0;
+    background-color: rgba(70, 80, 87, 0.81);
+    overflow: auto;
+}
+#coursera:hover{
+    opacity: 1;
+
+}
+#edx{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 0;
+    background-color: rgba(70, 80, 87, 0.81);
+    overflow: auto;
+}
+#edx:hover{
+    opacity: 1;
+
+}
+#udacity{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 0;
+    background-color: rgba(70, 80, 87, 0.8);
+    overflow: auto;
+}
+#udacity:hover{
+    opacity: 1;
+
+}
+#codecademy{
+    position: absolute;
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 0;
+    background-color: rgba(70, 80, 87, 0.8);
+    overflow: auto;
+}
+#codecademy:hover{
+    opacity: 1;
+}
+
+#logocoursera{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 1;
+}
+#logocoursera:hover{
+    opacity: 0;
+}
+#logoedx{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 1;
+}
+#logoedx:hover{
+    opacity: 0;
+}
+#logoudacity{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 1;
+}
+#logoudacity:hover{
+    opacity: 0;
+}
+#logocodecademy{
+    position: absolute;
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    border: solid 2px white;
+    opacity: 1;
+}
+#logocodecademy:hover{
+    opacity: 0;
+}
+

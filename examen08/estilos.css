@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600');
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#fondo{
+    right:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+header{
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 100;
+    font-size: 35px;
+    color: white;
+}
+
+#auralis{
+    margin-top: -6px;
+    float: left;
+    margin-left: 3%;
+    font-weight: bold;
+}
+#agencia{
+    margin-top: -6px;
+    float: right;
+    margin-right: 3%;
+}
+
+#franjaazul{
+    background-color: #60c5ad;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top:40%;
+    z-index: 200;
+}
+#franjaazul h1{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#boton{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 8;
+    text-align: center;
+}
+#solicitados{
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    background-color: rgba(100%,100%,100%,.75);
+}
+#viajes{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+article{
+    height: 400px;
+    display: block;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.derecha .texto{
+    margin-left: 10px;
+    left: 10px;
+    top:10px;
+    width: 45%;
+    height: 100%;
+    text-align: justify;
+    float: left;
+}
+article p a{
+    padding-left:3em;
+    padding-right: 3em;
+    text-decoration: none;
+    color: white;
+    margin-top:3em;
+    background-color: #2bbf6e;
+    border-radius: 5px;
+}
+.derecha .img{
+    right: 0px;
+    top: 0px;
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+article h1{
+    color: #2bbf6e;
+}
+article span{
+    font-weight: bold;
+}
+
+.izquierda .texto{
+    margin-left: 10px;
+    right: 10px;
+    top:10px;
+    width: 45%;
+    height: 100%;
+    text-align: justify;
+    float: right;
+}
+.izquierda .img{
+    right: 0px;
+    top: 0px;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.img img:hover{
+    transition: 2s;
+    width: 1024px;
+}
